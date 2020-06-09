@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background-color: #f7f7f7;
+}
+header {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+.nav {
+    list-style: none;
+    }
+.nav li {
+    display: inline-block;
+    margin: 10px;
+}
+.subTitle {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/Users/kiyotaka/Documents/VSCode/CalGaly/image/IMG_8444.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.entry {
+    color: green;
+}
+.light {
+    color: blue;
+}
+.basic {
+    color: red;
+}
+.btn {
+    background-color: yellowgreen;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+}
+#section-5 {
+    border: dashed 3px black;
+}
+.bold {
+    font-weight: bold;
+}
+.center {
+    text-align: center;
+}
+.footer {
+    text-align: right;
+}
+.lang {
+    display: inline-block;
+}
